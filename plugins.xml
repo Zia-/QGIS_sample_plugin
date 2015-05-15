@@ -19,7 +19,7 @@ plugin_id="227">
 https://raw.githubusercontent.com/Zia-/QGIS_sample_plugin/master/icon.png
 </icon>
 <author_name><![CDATA[Mohammed Zia]]></author_name>
-<download_url> https://github.com/Zia-/QGIS_sample_plugin/blob/master/MyPlugin.tar.gz?raw=true
+<download_url> https://github.com/Zia-/QGIS_sample_plugin/blob/master/MyPlugin.0.1.0.zip?raw=true
 </download_url>
 <uploaded_by><![CDATA[jll]]></uploaded_by>
 <create_date>2015-05-15T15:31:19.824333</create_date>
