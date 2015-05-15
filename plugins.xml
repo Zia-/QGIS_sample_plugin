@@ -12,19 +12,18 @@ plugin_id="227">
 <qgis_minimum_version>1.8.0</qgis_minimum_version>
 <qgis_maximum_version>2.9.9</qgis_maximum_version>
 <homepage>
-<![CDATA[https://code.google.com/p/geospatialpython]]>
+<![CDATA[https://github.com/Zia-/QGIS_sample_plugin]]>
 </homepage>
 <file_name>myplugin.zip</file_name>
 <icon>
-http://geospatialpython.googlecode.com/svn/icon_227.png
+https://github.com/Zia-/QGIS_sample_plugin/blob/master/icon.png
 </icon>
-<author_name><![CDATA[Joel Lawhead]]></author_name>
-<download_url> http://geospatialpython.googlecode.com/svn/
-myplugin.zip
+<author_name><![CDATA[Mohammed Zia]]></author_name>
+<download_url> https://github.com/Zia-/QGIS_sample_plugin/blob/master/myplugin.zip
 </download_url>
 <uploaded_by><![CDATA[jll]]></uploaded_by>
-<create_date>2014-05-16T15:31:19.824333</create_date>
-<update_date>2014-07-15T15:31:19.824333</update_date>
+<create_date>2015-05-15T15:31:19.824333</create_date>
+<update_date>2015-05-15T15:31:19.824333</update_date>
 <experimental>True</experimental>
 <deprecated>False</deprecated>
 <tracker>
