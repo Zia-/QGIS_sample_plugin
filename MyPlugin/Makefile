@@ -1,12 +1,12 @@
 #/***************************************************************************
-# test_six
+# MyPlugin
 #
-# test six despt
+# A demonstration Plugin
 #							 -------------------
 #		begin				: 2015-05-15
 #		git sha				: $Format:%H$
-#		copyright			: (C) 2015 by zia
-#		email				: zia@
+#		copyright			: (C) 2015 by Zia
+#		email				: Zia@gmail.com
 # ***************************************************************************/
 #
 #/***************************************************************************
@@ -38,17 +38,17 @@ LOCALES =
 # translation
 SOURCES = \
 	__init__.py \
-	test_six.py \
-	test_six_dialog.py
+	myplugin.py \
+	myplugin_dialog.py
 
-PLUGINNAME = test_six
+PLUGINNAME = MyPlugin
 
 PY_FILES = \
-	test_six.py \
-	test_six_dialog.py \
+	myplugin.py \
+	myplugin_dialog.py \
 	__init__.py
 
-UI_FILES = test_six_dialog_base.ui
+UI_FILES = myplugin_dialog_base.ui
 
 EXTRAS = icon.png metadata.txt
 

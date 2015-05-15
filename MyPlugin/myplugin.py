@@ -1,14 +1,14 @@
 # -*- coding: utf-8 -*-
 """
 /***************************************************************************
- test_six
+ MyPlugin
                                  A QGIS plugin
- test six despt
+ A demonstration Plugin
                               -------------------
         begin                : 2015-05-15
         git sha              : $Format:%H$
-        copyright            : (C) 2015 by zia
-        email                : zia@
+        copyright            : (C) 2015 by Zia
+        email                : Zia@gmail.com
  ***************************************************************************/
 
 /***************************************************************************
@@ -25,11 +25,11 @@ from PyQt4.QtGui import QAction, QIcon
 # Initialize Qt resources from file resources.py
 import resources_rc
 # Import the code for the dialog
-from test_six_dialog import test_sixDialog
+from myplugin_dialog import MyPluginDialog
 import os.path
 
 
-class test_six:
+class MyPlugin:
     """QGIS Plugin Implementation."""
 
     def __init__(self, iface):
@@ -49,7 +49,7 @@ class test_six:
         locale_path = os.path.join(
             self.plugin_dir,
             'i18n',
-            'test_six_{}.qm'.format(locale))
+            'MyPlugin_{}.qm'.format(locale))
 
         if os.path.exists(locale_path):
             self.translator = QTranslator()
@@ -59,14 +59,14 @@ class test_six:
                 QCoreApplication.installTranslator(self.translator)
 
         # Create the dialog (after translation) and keep reference
-        self.dlg = test_sixDialog()
+        self.dlg = MyPluginDialog()
 
         # Declare instance attributes
         self.actions = []
-        self.menu = self.tr(u'&test six')
+        self.menu = self.tr(u'&My Plugin')
         # TODO: We are going to let the user set this up in a future iteration
-        self.toolbar = self.iface.addToolBar(u'test_six')
-        self.toolbar.setObjectName(u'test_six')
+        self.toolbar = self.iface.addToolBar(u'MyPlugin')
+        self.toolbar.setObjectName(u'MyPlugin')
 
     # noinspection PyMethodMayBeStatic
     def tr(self, message):
@@ -81,7 +81,7 @@ class test_six:
         :rtype: QString
         """
         # noinspection PyTypeChecker,PyArgumentList,PyCallByClass
-        return QCoreApplication.translate('test_six', message)
+        return QCoreApplication.translate('MyPlugin', message)
 
 
     def add_action(
@@ -160,10 +160,10 @@ class test_six:
     def initGui(self):
         """Create the menu entries and toolbar icons inside the QGIS GUI."""
 
-        icon_path = ':/plugins/test_six/icon.png'
+        icon_path = ':/plugins/MyPlugin/icon.png'
         self.add_action(
             icon_path,
-            text=self.tr(u'test_six_text'),
+            text=self.tr(u'My Plugin'),
             callback=self.run,
             parent=self.iface.mainWindow())
 
@@ -172,7 +172,7 @@ class test_six:
         """Removes the plugin menu item and icon from QGIS GUI."""
         for action in self.actions:
             self.iface.removePluginMenu(
-                self.tr(u'&test six'),
+                self.tr(u'&My Plugin'),
                 action)
             self.iface.removeToolBarIcon(action)
         # remove the toolbar

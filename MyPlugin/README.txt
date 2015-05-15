@@ -1,7 +1,7 @@
 Plugin Builder Results
 
-Your plugin test_six was created in:
-    /home/zia/.qgis2/python/plugins/test_six
+Your plugin MyPlugin was created in:
+    /home/zia/.qgis2/python/plugins/MyPlugin
 
 Your QGIS plugin directory is located at:
     /home/zia/.qgis2/python/plugins
@@ -17,11 +17,11 @@ What's Next:
 
   * Test the plugin by enabling it in the QGIS plugin manager
 
-  * Customize it by editing the implementation file: ``test_six.py``
+  * Customize it by editing the implementation file: ``myplugin.py``
 
   * Create your own custom icon, replacing the default icon.png
 
-  * Modify your user interface by opening test_six.ui in Qt Designer
+  * Modify your user interface by opening MyPlugin.ui in Qt Designer
 
   * You can use the Makefile to compile your Ui and resource files when
     you make changes. This requires GNU make (gmake)

@@ -7,12 +7,12 @@
 # This file should be included when you package your plugin.# Mandatory items:
 
 [general]
-name=test six
+name=My Plugin
 qgisMinimumVersion=2.0
-description=test six despt
+description=A demonstration Plugin
 version=0.1
-author=zia
-email=zia@
+author=Zia
+email=Zia@gmail.com
 
 # End of mandatory metadata
 

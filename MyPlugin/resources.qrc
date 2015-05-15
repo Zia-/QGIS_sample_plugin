@@ -1,5 +1,5 @@
 <RCC>
-    <qresource prefix="/plugins/test_six" >
+    <qresource prefix="/plugins/MyPlugin" >
         <file>icon.png</file>
     </qresource>
 </RCC>
