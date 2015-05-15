@@ -14,12 +14,12 @@ plugin_id="227">
 <homepage>
 <![CDATA[https://github.com/Zia-/QGIS_sample_plugin]]>
 </homepage>
-<file_name>myplugin.zip</file_name>
+<file_name>myplugin.0.1.0.zip</file_name>
 <icon>
 https://github.com/Zia-/QGIS_sample_plugin/blob/master/icon.png
 </icon>
 <author_name><![CDATA[Mohammed Zia]]></author_name>
-<download_url> https://github.com/Zia-/QGIS_sample_plugin/blob/master/myplugin.zip
+<download_url> https://github.com/Zia-/QGIS_sample_plugin/blob/master/myplugin.0.1.0.zip
 </download_url>
 <uploaded_by><![CDATA[jll]]></uploaded_by>
 <create_date>2015-05-15T15:31:19.824333</create_date>
@@ -27,10 +27,10 @@ https://github.com/Zia-/QGIS_sample_plugin/blob/master/icon.png
 <experimental>True</experimental>
 <deprecated>False</deprecated>
 <tracker>
-<![CDATA[http://code.google.com/p/geospatialpython/issues]]>
+<![CDATA[https://github.com/Zia-/QGIS_sample_plugin]]>
 </tracker>
 <repository>
-<![CDATA[https://geospatialpython.googlecode.com/svn/]]>
+<![CDATA[https://github.com/Zia-/QGIS_sample_plugin]]>
 </repository>
 <tags>
 <![CDATA[development,debugging,tools]]></tags>
