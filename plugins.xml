@@ -1,0 +1,42 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<?xml-stylesheet type="text/xsl" href="" ?>
+<plugins>
+<pyqgis_plugin name="My Plugin from Zia"
+version="0.1.0"
+plugin_id="227">
+<description>
+<![CDATA[Demonstration of a QGIS Plugin by Zia]]>
+</description>
+<about></about>
+<version>0.1.0</version>
+<qgis_minimum_version>1.8.0</qgis_minimum_version>
+<qgis_maximum_version>2.9.9</qgis_maximum_version>
+<homepage>
+<![CDATA[https://code.google.com/p/geospatialpython]]>
+</homepage>
+<file_name>myplugin.zip</file_name>
+<icon>
+http://geospatialpython.googlecode.com/svn/icon_227.png
+</icon>
+<author_name><![CDATA[Joel Lawhead]]></author_name>
+<download_url> http://geospatialpython.googlecode.com/svn/
+myplugin.zip
+</download_url>
+<uploaded_by><![CDATA[jll]]></uploaded_by>
+<create_date>2014-05-16T15:31:19.824333</create_date>
+<update_date>2014-07-15T15:31:19.824333</update_date>
+<experimental>True</experimental>
+<deprecated>False</deprecated>
+<tracker>
+<![CDATA[http://code.google.com/p/geospatialpython/issues]]>
+</tracker>
+<repository>
+<![CDATA[https://geospatialpython.googlecode.com/svn/]]>
+</repository>
+<tags>
+<![CDATA[development,debugging,tools]]></tags>
+<downloads>0</downloads>
+<average_vote>0</average_vote>
+<rating_votes>0</rating_votes>
+</pyqgis_plugin>
+</plugins>
